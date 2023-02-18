@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- タイトル -->
+    <title>検索結果画面</title>
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <!-- pagination -->
+        <script src="https://pagination.js.org/dist/2.5.0/pagination.min.js"></script>
+        <h1 id="title">Doconan</h1>
+    </header>
+
+    <!-- 本文 -->
+    <!-- 一覧で表示する -->
+    <h2>店舗一覧</h2>
+    <div id="lists"></div>
+    <div id="page"></div>
+    <!-- 戻るボタン -->
+    <div id="returnTopButtonDiv">
+        <a id="returnTopButton" href="top.html">戻る</a>
+    </div>
+
+    <!-- フッター -->
+    <footer id="listfooter">
+        <a href="http://webservice.recruit.co.jp/">
+            <img src="http://webservice.recruit.co.jp/banner/hotpepper-s.gif" alt="ホットペッパー Webサービス" width="135" height="17" border="0" title="ホットペッパー Webサービス">
+        </a>
+    </footer>
+
+    <!-- javaScript読み込み -->
+    <script src="js/list.js"></script>
+</body>
+</html>

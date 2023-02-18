@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- タイトル -->
+    <title>店舗詳細画面</title>
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <h1 id="title">Doconan</h1>
+    </header>
+
+    <!-- 本文 -->
+    <!-- 詳細情報 -->
+    <div id="detailGroup">
+        <table align="center">
+            <thead>
+                <tr>
+                    <th colspan="2">詳細情報</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="tableElement">店舗名称</td>
+                    <td id="shopName"></td>
+                </tr>
+                <tr>
+                    <td id="tableElement">住所</td>
+                    <td id="shopAddress"></td>
+                </tr>
+                <tr>
+                    <td id="tableElement">営業時間</td>
+                    <td id="shopTime"></td>
+                </tr>
+                <tr>
+                    <td id="tableElement">画像</td>
+                    <td id="shopImage"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- 戻るボタン -->
+    <div id="returnDetailButtonDiv">
+        <a id="returnButton" href="list.html">戻る</a>
+    </div>
+
+    <!-- フッター -->
+    <footer id="detailFooter">
+        <a href="http://webservice.recruit.co.jp/">
+            <img src="http://webservice.recruit.co.jp/banner/hotpepper-s.gif" alt="ホットペッパー Webサービス" width="135" height="17" border="0" title="ホットペッパー Webサービス">
+        </a>
+    </footer>
+
+    <!-- javaScript読み込み -->
+    <script src="js/detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- タイトル -->
+    <title>検索条件入力画面</title>
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <h1 id="title">Doconan</h1>
+    </header>
+
+    <!-- 本文 -->
+    <div id="permission">
+        <!-- 位置情報を許可するか -->
+        <h2 id="permissionMessage">位置情報の取得を許可しますか？</h2>
+        <a class="yesButton" onclick="permissionYes();">YES</a>
+        <a class="noButton" onclick="permissionNo();">NO</a>
+        <!-- エラーメッセージなどを表示する -->
+        <h2 id="messageArea"></h2>
+    </div>
+    <!-- 検索条件 -->
+    <div id="searchCondition"></div>
+    <!-- 検索ボタン -->
+    <div id="searchConditionButton"></div>
+
+    <!-- フッター -->
+    <footer id="topFooter">
+        <a href="http://webservice.recruit.co.jp/">
+            <img src="http://webservice.recruit.co.jp/banner/hotpepper-s.gif" alt="ホットペッパー Webサービス" width="135" height="17" border="0" title="ホットペッパー Webサービス">
+        </a>
+    </footer>
+
+    <!-- javaScript読み込み -->
+    <script src="js/main.js"></script>
+</body>
+</html>
