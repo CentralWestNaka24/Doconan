@@ -16,7 +16,7 @@ var shopInformation = null;
 var sessionCorrespondence = sessionStorage.getItem("correspondence");
 
 // APIキー
-var ApiKey = "198b5d3afdd6669f";
+var ApiKey = "APIキー";
 
 // top.htmlにアクセスしたとき
 window.onload = function(){
